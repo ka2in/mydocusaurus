@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktechwriter=self.webpackChunktechwriter||[]).push([[259],{8741:function(u){u.exports=JSON.parse('{"allTagsPath":"/mydocusaurus/blog/tags","slug":"/mydocusaurus/blog/tags/intercultural-communication","name":"intercultural communication","count":1,"permalink":"/mydocusaurus/blog/tags/intercultural-communication"}')}}]);
