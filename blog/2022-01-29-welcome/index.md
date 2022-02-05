@@ -1,8 +1,10 @@
 ---
 slug: welcome
 title: Welcome
-authors: [slorber, yangshun]
-tags: [facebook, hello, docusaurus]
+authors: [faycal]
+tags: [blog, docusaurus, rtl, l10n]
+url: https://github.com/ka2in
+image_url: https://github.com/ka2in.png
 ---
 
 [Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
@@ -18,8 +20,9 @@ The blog post date can be extracted from filenames, such as:
 
 A blog post folder can be convenient to co-locate blog post images:
 
-![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)
+![EFF Data Privacy](./printer-eff.jpg)<br />
+Picture by the [Electronic Frontier Foundation](https://www.eff.org/) under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) Licence
 
 The blog supports tags as well!
 
-**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config.
+**If you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config.

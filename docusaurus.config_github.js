@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Tech & Intellect',
   tagline: 'Data & Information 📢 Knowledge',
-  url: 'https://ka2in.github.io',
-  baseUrl: '/mydocusaurus/',
+  url: 'https://your-docusaurus-test-site.com',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'ka2in', // Usually your GitHub org/user name.
-  projectName: 'mydocusaurus', // Usually your repo name.
+  organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
 
   presets: [
     [
@@ -42,23 +42,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      colorMode: {
-      defaultMode: 'dark',
-      disableSwitch: false,
-      respectPrefersColorScheme: false,
-      switchConfig: {
-        darkIcon: '🌙',
-        darkIconStyle: {
-          marginLeft: '2px',
-        },
-        // Unicode icons such as '\u2600' will work
-        // Unicode with 5 chars require brackets: '\u{1F602}'
-        lightIcon: '\u{1F602}',
-        lightIconStyle: {
-          marginLeft: '1px',
-          },
-        },
-      },
       navbar: {
         title: 'Home',
         logo: {
@@ -132,4 +115,70 @@ const config = {
     }),
 };
 
-module.exports = config;        
+module.exports = {
+  baseUrl: "/docs/",
+  title: "Tech & Intellect",
+  url: 'https://your-docusaurus-test-site.com',
+  themeConfig: {
+    hideableSidebar: false,
+    autoCollapseSidebarCategories: false,
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+      switchConfig: {
+        darkIcon: '🌙',
+        lightIcon: '\u2600',
+        // React inline style object
+        // see https://reactjs.org/docs/dom-elements.html#style
+        darkIconStyle: {
+          marginLeft: '2px',
+        },
+        lightIconStyle: {
+          marginLeft: '1px',
+        },
+      },
+    },
+    navbar: {
+      title: 'Site Title',
+      logo: {
+        alt: 'Site Logo',
+        src: 'img/logo.svg',
+        width: 32,
+        height: 32,
+      },
+      items: [
+        {
+          to: 'docs/docusaurus.config.js',
+          activeBasePath: 'docs',
+          label: 'docusaurus.config.js',
+          position: 'left',
+        },
+        // ... other links
+      ],
+    },
+    footer: {
+      style: 'dark',
+      links: [
+        {
+          title: 'Docs',
+          items: [
+            {
+              label: 'Docs',
+              to: 'docs/doc1',
+            },
+          ],
+        },
+        // ... other links
+      ],
+      logo: {
+        alt: 'Facebook Open Source Logo',
+        src: 'https://docusaurus.io/img/oss_logo.png',
+        width: 160,
+        height: 51,
+      },
+      copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`, // You can also put own HTML here
+    },
+  },
+};
+
