@@ -33,7 +33,7 @@ So, what about the Japanese language? Is it an RTL or an LTR script? Well, both 
 
 If you are curious to know more about the reading direction in Japanese, I suggest you read the article [&ldquo;Is Japanese Read from Right to Left or Left to Right?&rdquo;](https://teamjapanese.com/japanese-read-right-left/) by Team Japanese.
 
-The presentation was quite interesting, but it had some flaws from the &ldquo;intercultural&rdquo; standpoint. Allow me to explain why. 
+Getting back to our presentation, it was quite interesting, but it had some flaws from the &ldquo;intercultural&rdquo; standpoint. Allow me to explain why. 
 
 At a certain stage of the presentation, the speaker showed an antique artwork from the Arab-Islamic World, and pointed out that artists from the aforesaid region used ornaments because drawing human beings is not allowed for religious reasons.
 
