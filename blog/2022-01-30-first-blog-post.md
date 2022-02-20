@@ -1,6 +1,6 @@
 ---
 slug: first-blog-post
-title: RTL and Absent-Mindeness
+title: RTL and Absent-Mindedness
 authors:
   name: Faycal Alami-Hassani
   title: Website's owner
