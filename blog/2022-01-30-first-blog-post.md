@@ -1,12 +1,12 @@
 ---
 slug: first-blog-post
-title: RTL and Absent-Mindedness
+title: RTL, LTR, and Absent-Mindedness
 authors:
   name: Faycal Alami-Hassani
   title: Website's owner
   url: https://github.com/ka2in
   image_url: https://github.com/ka2in.png
-tags: [RTL, intercultural communication, visual communication, documentation]
+tags: [RTL, LTR, intercultural communication, visual communication, technical documentation]
 ---
 
 In localization, RTL (Right-to-Left) refers to languages that read from right to left, such as Arabic and Hebrew.
