@@ -47,7 +47,7 @@ Judging by the names appearing in the attendees list, I suppose that I was the o
 
 Personally, I think that the choice of the examples was a big *faux pas*, and that they would cause real indignation among the attendees if the presentation were to be held in front of a non-European audience (e.g. in an Asian or African country). 
 
-Dear speaker, you are shooting yourself in the foot with such examples. If you have any non-European students, ask them what they think about your examples. You may need to adapt your content as soon as possible to avoid any future issues with international audiences. 
+Dear speaker, you are shooting yourself in the foot with such examples. If you have any non-European students, ask them what they think about your examples. You may need to adapt your content as soon as possible to avoid any misunderstandings with international audiences. 
 
 After all, your presentation is supposed to address intercultural challenges in technical communication.
 
