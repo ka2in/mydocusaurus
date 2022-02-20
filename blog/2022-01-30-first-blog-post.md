@@ -37,7 +37,7 @@ The presentation was quite interesting, but it had some flaws from the &ldquo;in
 
 At a certain stage of the presentation, the speaker showed an antique artwork from the Arab-Islamic World, and pointed out that artists from the aforesaid region used ornaments because drawing human beings is not allowed for religious reasons.
 
-While it is partly true that artists from the Arab-Islamic World have used polymorphic design at a later stage as a foundation for their artwork (e.g. use of vegetal shapes and forms, also known as &ldquo;al-Tawrīq&rdquo;), the major part of these artistic creations are based on calligraphy and geometry by deriving patterns from basic geometric shapes, such as circles and squares. 
+While it is partly true that artists from the Arab-Islamic World have used biomorphic design at a later stage as a foundation for their artwork (e.g. use of vegetal shapes and forms, also known as &ldquo;al-Tawrīq&rdquo;), the major part of these artistic creations are based on calligraphy and geometry by deriving patterns from basic geometric shapes, such as circles and squares. 
 
 A little introduction to the topic is the article [&ldquo;Geometry - The Language of Symmetry in Islamic Art&rdquo;](https://artofislamicpattern.com/resources/educational-posters/) by Richard Henry.
 
@@ -45,7 +45,7 @@ The second shortcoming in the presentation was related to the examples that were
 
 Judging by the names appearing in the attendees list, I suppose that I was the only non-European in the meeting room. It was striking to see that the examples used were too ethnocentric, to say the least. 
 
-Personally, I think that the choice of the examples was a big *faux pas* and that they would cause real indignation among the attendees if the presentation were to be held in front of a non-European audience (e.g. in an Asian or African country). 
+Personally, I think that the choice of the examples was a big *faux pas*, and that they would cause real indignation among the attendees if the presentation were to be held in front of a non-European audience (e.g. in an Asian or African country). 
 
 Dear speaker, you are shooting yourself in the foot with such examples. If you have any non-European students, ask them what they think about your examples. You may need to adapt your content as soon as possible to avoid any future issues with international audiences. 
 
