@@ -37,7 +37,7 @@ The presentation was quite interesting, but it had some flaws from the &ldquo;in
 
 At a certain stage of the presentation, the speaker showed an antique artwork from the Arab-Islamic World, and pointed out that artists from the aforesaid region used ornaments because drawing human beings is not allowed for religious reasons.
 
-While it is partly true that artists from the Arab-Islamic World have used polymorphic design at a later stage as a foundation for their artwork (e.g. use of vegetal shapes and forms, also known as &ldquo;al-Tawrīq&rdquo), the major part of these artistic creations are based on calligraphy and geometry by deriving patterns from basic geometric shapes, such as circles and squares. 
+While it is partly true that artists from the Arab-Islamic World have used polymorphic design at a later stage as a foundation for their artwork (e.g. use of vegetal shapes and forms, also known as &ldquo;al-Tawrīq&rdquo;), the major part of these artistic creations are based on calligraphy and geometry by deriving patterns from basic geometric shapes, such as circles and squares. 
 
 A little introduction to the topic is the article [&ldquo;Geometry - The Language of Symmetry in Islamic Art&rdquo;](https://artofislamicpattern.com/resources/educational-posters/) by Richard Henry.
 
