@@ -37,17 +37,17 @@ Getting back to our presentation, it was quite interesting, but it had some flaw
 
 At a certain stage of the presentation, the speaker showed an antique artwork from the Arab-Islamic World, and pointed out that artists from the aforesaid region used ornaments because drawing human beings is not allowed for religious reasons.
 
-While it is partly true that artists from the Arab-Islamic World have used biomorphic design at a later stage as an integral part of their artwork (e.g. use of vegetal shapes and forms, also known as &ldquo;al-Tawrīq&rdquo;), the major part of these artistic creations are based on calligraphy and geometry by deriving patterns from basic geometric shapes, such as circles and squares. 
+While it is partly true that artists from the Arab-Islamic World have used biomorphic design at a later stage as an integral part of their artwork (e.g. use of vegetal shapes and forms, also known as &ldquo;al-Tawrīq&rdquo;), the major part of these artistic creations is based on calligraphy and geometry by deriving patterns from basic geometric shapes, such as circles and squares. 
 
-A little introduction to the topic is the article [&ldquo;Geometry - The Language of Symmetry in Islamic Art&rdquo;](https://artofislamicpattern.com/resources/educational-posters/) by Richard Henry.
+A little introduction to this topic is the article [&ldquo;Geometry - The Language of Symmetry in Islamic Art&rdquo;](https://artofislamicpattern.com/resources/educational-posters/) by Richard Henry.
 
-The second shortcoming in the presentation was related to the examples that were selected to reflect cultural differences in technical documentation. 
+The second shortcoming in the presentation consisted in the examples used to reflect cultural differences in technical documentation. 
 
-Judging by the names appearing in the attendees list, I suppose that I was the only non-European in the meeting room. It was striking to see that the examples used were too ethnocentric, to say the least. 
+It was striking to see that the examples were too ethnocentric, to say the least. Judging by the names appearing in the attendees list, I presume that I was the only non-European in the meeting room.
 
-Personally, I think that the choice of the examples was a big *faux pas*, and that they would cause real indignation among the attendees if the presentation were to be held in front of a non-European audience (e.g. in an Asian or African country). 
+Personally, I think that the choice of the examples was an unfortunate *faux pas*. The supporting materials would cause real indignation among the attendees if the presentation were to be held in front of a non-European audience (e.g. in an Asian or African country). 
 
-Dear speaker, you are shooting yourself in the foot with such examples. If you have any non-European students, ask them what they think about your examples. You may need to adapt your content as soon as possible to avoid any misunderstandings with international audiences. 
+Dear speaker, you are shooting yourself in the foot with such examples. If you have any non-European students, ask them for their input. You may need to adapt your content as soon as possible to avoid any misunderstandings with international audiences. 
 
 After all, your presentation is supposed to address intercultural challenges in technical communication.
 
