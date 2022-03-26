@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktechwriter=self.webpackChunktechwriter||[]).push([[8168],{7541:function(a){a.exports=JSON.parse('{"allTagsPath":"/mydocusaurus/blog/tags","name":"visual communication","count":1,"permalink":"/mydocusaurus/blog/tags/visual-communication"}')}}]);

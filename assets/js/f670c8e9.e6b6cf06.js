@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktechwriter=self.webpackChunktechwriter||[]).push([[304],{9688:function(e){e.exports=JSON.parse('{"allTagsPath":"/mydocusaurus/blog/tags","name":"decentralized networks","count":1,"permalink":"/mydocusaurus/blog/tags/decentralized-networks"}')}}]);

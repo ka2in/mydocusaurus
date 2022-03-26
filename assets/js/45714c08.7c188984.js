@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktechwriter=self.webpackChunktechwriter||[]).push([[1015],{1286:function(e){e.exports=JSON.parse('{"allTagsPath":"/mydocusaurus/blog/tags","slug":"/mydocusaurus/blog/tags/free-libre-communities","name":"free libre communities","count":1,"permalink":"/mydocusaurus/blog/tags/free-libre-communities"}')}}]);
