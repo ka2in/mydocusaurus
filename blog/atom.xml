@@ -2,11 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ka2in.github.io/mydocusaurus/blog</id>
     <title>Tech &amp; Intellect Blog</title>
-    <updated>2022-01-30T00:00:00.000Z</updated>
+    <updated>2022-03-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ka2in.github.io/mydocusaurus/blog"/>
     <subtitle>Tech &amp; Intellect Blog</subtitle>
     <icon>https://ka2in.github.io/mydocusaurus/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Modify The Welcome Text In GNU Social]]></title>
+        <id>gnu-social-welcome</id>
+        <link href="https://ka2in.github.io/mydocusaurus/blog/gnu-social-welcome"/>
+        <updated>2022-03-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Besides having some external accounts on federated social networks such as Mastodon, I am also running my own instances on a VPS sever for my digital company.]]></summary>
+        <content type="html"><![CDATA[<p>Besides having some external accounts on <a href="https://fediverse.party/en/fediverse/" target="_blank" rel="noopener noreferrer">federated social networks</a> such as Mastodon, I am also running my own instances on a VPS sever for my digital company. </p><p>One of these instances is dedicated to GNU Social, a social communication software for public and private communications. GNU Social is an old, but robust platform that supports the protocols OStatus and ActivityPub. </p><p><img alt="Fediverse - Federated Social Networks" src="/mydocusaurus/assets/images/fediverse-high-tech-64de1a713b68d9f38c0d73b69028f678.jpg" width="1920" height="1080"><br>
+Picture by Eukombos on <a href="https://commons.wikimedia.org/wiki/File:Fediverse-high_tech(denoised)(signed).jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> license</p><p>GNU Social comes with some default stable themes. However, the look and feel of those themes is very 90's to me. If you want to give your GNU Social instance a brand-new look, you can use something more exciting such as <a href="https://github.com/hannesmannerheim/qvitter" target="_blank" rel="noopener noreferrer">Qvitter</a>.</p><p>I am very happy with Qvitter and its intuitive design. Nevertheless, I wanted to customize the initial welcome text that appears on the main page:</p><p><code>We are a federation of microbloggers who care about social justice and solidarity and want to quit the centralised capitalist services.</code></p><p><img alt="Initial Welcome Text on GNU Social&amp;#39;s Main Page" src="/mydocusaurus/assets/images/original-message-eb3dce2880bff4625d353f906db46d38.png" width="1354" height="577"></p><p>To modify the text indicated above, go to your site root directory, then navigate to the folder <code>locale</code> under the following path:</p><div class="codeBlockContainer_I0IT language-console theme-code-block"><div class="codeBlockContent_wNvx console"><pre tabindex="0" class="prism-code language-console codeBlock_jd64 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_mRuA"><span class="token-line" style="color:#F8F8F2"><span class="token plain">$ cd plugins/Qvitter/locale </span><br></span></code></pre><button type="button" aria-label="Copy code to clipboard" class="copyButton_wuS7 clean-btn">Copy</button></div></div><p>Once in the locale folder, open the file <code>en.json</code> with your preferred text editor. In this case, I am using nano:</p><div class="codeBlockContainer_I0IT language-console theme-code-block"><div class="codeBlockContent_wNvx console"><pre tabindex="0" class="prism-code language-console codeBlock_jd64 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_mRuA"><span class="token-line" style="color:#F8F8F2"><span class="token plain">$ sudo nano en.json </span><br></span></code></pre><button type="button" aria-label="Copy code to clipboard" class="copyButton_wuS7 clean-btn">Copy</button></div></div><p>Look for the line that starts with <code>welcomeText</code>, or use the shortcut <code>Ctrl-W</code> in your terminal to search for the text.</p><p>Replace with the text you would like to see on your welcome screen. 😎 The result should look like this:</p><p><img alt="New Welcome Text on GNU Social&amp;#39;s Main Page" src="/mydocusaurus/assets/images/new-message-8cc50cb187c6200595211db86e681d4a.png" width="1354" height="577"></p><p>If you want to learn more about the fediverse, you can also read my other blog article on the topic: <a href="https://globaltech-translations.com/profil/blog/random-thoughts-about-the-federation-fediverse" target="_blank" rel="noopener noreferrer">Random Thoughts About the Federation/Fediverse</a>.</p><p>Copyright © GlobalTech Translations 2002.</p>]]></content>
+        <author>
+            <name>Faycal Alami-Hassani</name>
+            <uri>https://github.com/ka2in</uri>
+        </author>
+        <category label="gnusocial" term="gnusocial"/>
+        <category label="fediverse" term="fediverse"/>
+        <category label="decentralized networks" term="decentralized networks"/>
+        <category label="federated networks" term="federated networks"/>
+        <category label="free libre communities" term="free libre communities"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[RTL, LTR, and Absent-Mindedness]]></title>
         <id>first-blog-post</id>
