@@ -44,4 +44,4 @@ Replace with the text you would like to see on your welcome screen. 😎 The res
 If you want to learn more about the fediverse, you can also read my other blog article on the topic: [Random Thoughts About the Federation/Fediverse](https://globaltech-translations.com/profil/blog/random-thoughts-about-the-federation-fediverse).
 
 
-Copyright © GlobalTech Translations 2002.
+Copyright © GlobalTech Translations 2022.

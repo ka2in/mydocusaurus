@@ -52,4 +52,4 @@ Dear speaker, you are shooting yourself in the foot with such examples. If you h
 After all, your presentation is supposed to address intercultural challenges in technical communication.
 
 
-Copyright © GlobalTech Translations 2002.
+Copyright © GlobalTech Translations 2022.
