@@ -18,7 +18,7 @@ const config = {
 
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
@@ -46,18 +46,6 @@ const config = {
       defaultMode: 'dark',
       disableSwitch: false,
       respectPrefersColorScheme: false,
-      switchConfig: {
-        darkIcon: '🌙',
-        darkIconStyle: {
-          marginLeft: '2px',
-        },
-        // Unicode icons such as '\u2600' will work
-        // Unicode with 5 chars require brackets: '\u{1F602}'
-        lightIcon: '\u{1F602}',
-        lightIconStyle: {
-          marginLeft: '1px',
-          },
-        },
       },
       navbar: {
         title: 'Home',
