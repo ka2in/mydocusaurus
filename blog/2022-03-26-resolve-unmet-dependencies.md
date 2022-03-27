@@ -11,7 +11,7 @@ tags: [docusaurus, v. 2.0.0-beta.18, yarn, unmet dependencies]
 
 This is the first time that I am facing issues with unmet dependencies in Docusaurus after a Yarn Upgrade. 
 
-**Yarn** is a JavaScript package manager that was developed to address some shortcomings of **npm**, an older package manager and the default manager for Node.js.
+**Yarn** is a JavaScript package manager that was developed to address some shortcomings of its predecessor **npm**, which is the default manager for Node.js.
 
 If you want to learn more about the differences between yarn and npm, I suggest you read the following article: [npm vs. yarn: Which Package Manager Should You Choose?](https://www.whitesourcesoftware.com/free-developer-tools/blog/npm-vs-yarn-which-should-you-choose/)  
 
