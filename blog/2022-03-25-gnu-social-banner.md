@@ -34,10 +34,9 @@ Once in the locale folder, open the file `en.json` with your preferred text edit
 ```console
 $ sudo nano en.json 
 ``` 
+Look for the line that starts with `welcomeText`, or use the shortcut `Ctrl-W` in your terminal to search for the text if you are using nano.
 
-Look for the line that starts with `welcomeText`, or use the shortcut `Ctrl-W` in your terminal to search for the text.
-
-Replace with the text you would like to see on your welcome screen. 😎 The result should look like this:
+Replace with the text you would like to see on your welcome screen, then save and close your file. 😎 The result should look like this:
 
 ![New Welcome Text on GNU Social's Main Page](./new-message.png)
 
