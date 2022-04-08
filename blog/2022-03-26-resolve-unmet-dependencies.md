@@ -17,12 +17,15 @@ This is the first time that I am facing issues with unmet dependencies in Docusa
 
 The plain-text files make use of markup languages such as Markdown. Since there are neither databases nor dynamic content involved, the static HTML files load pretty fast.
 
-There are many SSGs on the market to choose from. Docusaurus, Hugo, and Eleventy are just some of the most famous among them. It is up to you to select the brand that best suits your needs.
+There are many SSGs on the web to choose from. Docusaurus, Hugo, and Eleventy are just some of the most famous ones among them. It is up to you to select the brand that best suits your needs.
 
 Docusaurus offers some very interesting features, including:
+
 - versioning capabilities
 - contextual and faceted navigation based on a integrated search engine
 - built-in support for the standard file format [MDX](https://mdxjs.com/docs/what-is-mdx/), which allows you to embed the JavaScript extension syntax [JSX](https://facebook.github.io/jsx/) into your Markdown
+
+These and other features make it a great fit to create beautiful static documentation sites.  
 
 ### What is Yarn?   
 
@@ -53,7 +56,7 @@ Here is an excerpt of a manifest:
     }
 ```  
 
-Source: [oclif / manifest file](https://github.com/oclif/manifest-file/blob/master/package.json) on GitHub
+Source code available on GitHub under: [oclif / manifest file](https://github.com/oclif/manifest-file/blob/master/package.json)
 
 A package manager relies on the manifest to determine the properties of each specific package, e.g. name, version, and dependencies.
 
