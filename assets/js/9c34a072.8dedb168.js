@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktechwriter=self.webpackChunktechwriter||[]).push([[5415],{47:function(t){t.exports=JSON.parse('{"allTagsPath":"/mydocusaurus/blog/tags","name":"technical documentation","count":1,"permalink":"/mydocusaurus/blog/tags/technical-documentation"}')}}]);

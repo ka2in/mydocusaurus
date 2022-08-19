@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktechwriter=self.webpackChunktechwriter||[]).push([[9148],{3409:function(s){s.exports=JSON.parse('{"label":"gnusocial","permalink":"/mydocusaurus/blog/tags/gnusocial","allTagsPath":"/mydocusaurus/blog/tags","count":1}')}}]);

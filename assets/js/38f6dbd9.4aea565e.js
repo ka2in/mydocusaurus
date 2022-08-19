@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktechwriter=self.webpackChunktechwriter||[]).push([[9318],{5303:function(e){e.exports=JSON.parse('{"allTagsPath":"/mydocusaurus/blog/tags","name":"federated networks","count":1,"permalink":"/mydocusaurus/blog/tags/federated-networks"}')}}]);

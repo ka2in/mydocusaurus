@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktechwriter=self.webpackChunktechwriter||[]).push([[2693],{5674:function(e){e.exports=JSON.parse('{"label":"fediverse","permalink":"/mydocusaurus/blog/tags/fediverse","allTagsPath":"/mydocusaurus/blog/tags","count":1}')}}]);
