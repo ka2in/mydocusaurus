@@ -123,9 +123,9 @@ module.exports = {
     hideableSidebar: false,
     autoCollapseSidebarCategories: false,
     colorMode: {
-      defaultMode: 'light',
+      defaultMode: 'dark',
       disableSwitch: false,
-      respectPrefersColorScheme: true,
+      respectPrefersColorScheme: false,
       switchConfig: {
         darkIcon: '🌙',
         lightIcon: '\u2600',
