@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktechwriter=self.webpackChunktechwriter||[]).push([[2970],{8068:function(e){e.exports=JSON.parse('{"permalink":"/mydocusaurus/blog/tags/yarn","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
