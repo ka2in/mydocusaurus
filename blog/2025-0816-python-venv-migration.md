@@ -8,6 +8,7 @@ authors:
   image_url: https://github.com/ka2in.png
 description: Learn why copying your venv folder breaks your Python setup and how to properly recreate environments for Sphinx documentation projects.
 tags: [python, sphinx, virtual-environments, documentation]
+image: /img/anime-landscape.jpg
 ---
 
 # Why You Shouldn’t Copy Your Python Virtual Environment Folder — and What to Do Instead
