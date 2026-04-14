@@ -4,29 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Data',
+    title: 'Enterprise Documentation',
     Svg: require('@site/static/img/javascript_illustration.svg').default,
     description: (
       <>
-        The first layer of our stack: Data is the foundation of the conceptual building. Tech & Intellect provides content about data-centered topics such as data for good, data analytics, and data protection.
+        Technical resources, tooling guides, and documentation strategy for SaaS and regulated industries.
       </>
     ),
   },
   {
-    title: 'Information',
+    title: 'Localization & Multilingual Content',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        The middle layer between data and knowledge: Information is the oil of the 21st century. Tech & Intellect discusses how individuals can become proactive members of the information society.
+        Insights on TMS workflows, terminology governance, and multilingual content strategy.
       </>
     ),
   },
   {
-    title: 'Knowledge',
+    title: 'Open Web & Digital Rights',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        The top tier of our stack. Extracting knowledge from information involves applying the right methodologies. Tech & Intellect explores the multiple models and approaches for knowledge extraction.
+        Perspectives on decentralized platforms, privacy, and open source tools for technical communicators.
       </>
     ),
   },

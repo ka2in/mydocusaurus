@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Tech & Intellect',
-  tagline: 'Data & Information 📢 Knowledge',
+  title: 'Farowave Blog',
+  tagline: 'Insights on enterprise documentation, localization, and technical communication',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -106,7 +106,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} GlobalTech Translations. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Farowave. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

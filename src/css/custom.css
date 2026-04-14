@@ -5,26 +5,107 @@
  */
 
 /* You can override the default Infima variables here. */
+
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #0066CC;
+  --ifm-color-primary-dark: #005BB5;
+  --ifm-color-primary-darker: #0052A3;
+  --ifm-color-primary-darkest: #003D7A;
+  --ifm-color-primary-light: #1A75D1;
+  --ifm-color-primary-lighter: #3385D6;
+  --ifm-color-primary-lightest: #5B8DB8;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 102, 204, 0.1);
+
+  --farowave-gold: #F4A460;
+  --farowave-slate: #2C3E50;
+  --farowave-light-gray: #F8F9FA;
+  --farowave-success: #27AE60;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #5B8DB8;
+  --ifm-color-primary-dark: #4A7DA8;
+  --ifm-color-primary-darker: #3D6E96;
+  --ifm-color-primary-darkest: #2D5573;
+  --ifm-color-primary-light: #6C9DC8;
+  --ifm-color-primary-lighter: #7DADD8;
+  --ifm-color-primary-lightest: #8EBDE8;
+  --ifm-background-color: #0D1B2A;
+  --ifm-navbar-background-color: #003D7A;
+  --ifm-footer-background-color: #003D7A;
+  --docusaurus-highlighted-code-line-bg: rgba(91, 141, 184, 0.2);
+}
+
+/* Navbar */
+.navbar {
+  border-bottom: 2px solid var(--farowave-gold);
+}
+
+.navbar__brand {
+  margin-right: 8px;
+}
+
+.navbar__inner {
+  gap: 4px;
+}
+
+.navbar__items .navbar__item:first-child {
+  padding-left: 8px;
+}
+
+/* Gold accent on active nav link */
+.navbar__link--active {
+  color: var(--farowave-gold) !important;
+  border-bottom: 2px solid var(--farowave-gold);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--ifm-footer-background-color, #003D7A);
+}
+
+/* Links */
+a {
+  color: var(--ifm-color-primary);
+}
+
+a:hover {
+  color: var(--farowave-gold);
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: var(--farowave-slate);
+}
+
+[data-theme='dark'] h1,
+[data-theme='dark'] h2,
+[data-theme='dark'] h3 {
+  color: var(--ifm-color-primary-lightest);
+}
+
+/* Code blocks */
+code {
+  background-color: var(--farowave-light-gray);
+  border: 1px solid #e0e0e0;
+}
+
+[data-theme='dark'] code {
+  background-color: #1A2D40;
+  border-color: #2C3E50;
+}
+
+/* Cards and content blocks */
+.card {
+  border-top: 3px solid var(--farowave-gold);
+}
+
+/* Blog post list */
+article header h2 a {
+  color: var(--ifm-color-primary);
+}
+
+article header h2 a:hover {
+  color: var(--farowave-gold);
 }

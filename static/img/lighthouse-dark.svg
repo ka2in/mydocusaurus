@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 110" fill="none">
+
+  <!-- Outer circle -->
+  <circle cx="50" cy="44" r="38" stroke="#F0F4F8" stroke-width="2.5" fill="none"/>
+
+  <!-- === TWO THIN BEAMS — LEFT === -->
+  <!-- Upper left beam -->
+  <polygon points="42,19 6,11 6,16" fill="#F0F4F8"/>
+  <!-- Lower left beam -->
+  <polygon points="42,24 6,23 6,28" fill="#F0F4F8"/>
+
+  <!-- === TWO THIN BEAMS — RIGHT === -->
+  <!-- Upper right beam -->
+  <polygon points="58,19 94,11 94,16" fill="#F0F4F8"/>
+  <!-- Lower right beam -->
+  <polygon points="58,24 94,23 94,28" fill="#F0F4F8"/>
+
+  <!-- Antenna spike -->
+  <line x1="50" y1="7" x2="50" y2="13" stroke="#F0F4F8" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Dome cap (arched top) -->
+  <path d="M42,17 Q50,10 58,17 Z" fill="#F0F4F8"/>
+
+  <!-- Lantern room body -->
+  <rect x="43" y="17" width="14" height="7" fill="#F0F4F8"/>
+  <!-- Lantern windows (dark cutouts) -->
+  <rect x="44.5" y="18.5" width="4" height="4.5" rx="0.8" fill="#1A1F2E"/>
+  <rect x="51.5" y="18.5" width="4" height="4.5" rx="0.8" fill="#1A1F2E"/>
+
+  <!-- Gallery rail / balcony ledge -->
+  <rect x="40" y="24" width="20" height="2.5" rx="1" fill="#F0F4F8"/>
+
+  <!-- Tower body — tall trapezoid, no windows -->
+  <path d="M44,26.5 L38,76 L62,76 L56,26.5 Z" fill="#F0F4F8"/>
+
+  <!-- Dark horizontal band stripes on tower -->
+  <rect x="39.2" y="44" width="21.6" height="2.5" fill="#1A1F2E" opacity="0.25"/>
+  <rect x="38.6" y="60" width="22.8" height="2.5" fill="#1A1F2E" opacity="0.25"/>
+
+  <!-- Rocky base silhouette -->
+  <path d="M22,76 C26,69 32,72 38,76 L62,76 C68,72 74,69 78,76 C81,71 85,75 88,73 L88,83 L12,83 L12,73 C15,75 19,71 22,76 Z" fill="#F0F4F8"/>
+
+</svg>
