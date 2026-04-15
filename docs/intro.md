@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'Farowave Blog'
+sidebar_label: 'Farowave Guides'
 sidebar_position: 1
 ---
 
-# Farowave Blog
+# Farowave Guides
 
 A space dedicated to enterprise documentation, technical communication, and the open web.
 
@@ -29,4 +29,4 @@ based in the European Union, working with SaaS companies and regulated industrie
 
 ## Resources
 
-- 📘 [Reference](https://docs.farowave.com) — a structured technical reference covering API fundamentals, version control, networking, and documentation tooling.
+- 📘 [Farowave Docs](https://docs.farowave.com) — a structured technical reference covering API fundamentals, version control, networking, and documentation tooling.

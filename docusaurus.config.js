@@ -3,7 +3,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Farowave Blog',
+  title: 'Farowave Guides',
   tagline: 'Insights on enterprise documentation, localization, and technical communication',
   url: 'https://ka2in.github.io',
   baseUrl: '/mydocusaurus/',
@@ -28,6 +28,9 @@ const config = {
           editUrl: 'https://github.com/ka2in/mydocusaurus/tree/main/',
         },
         blog: {
+          routeBasePath: 'guides',
+          blogTitle: 'Farowave Guides',
+          blogDescription: 'Practical resources for technical communicators and documentation engineers',
           showReadingTime: true,
           editUrl: 'https://github.com/ka2in/mydocusaurus/tree/main/',
         },
@@ -44,6 +47,30 @@ const config = {
       disableSwitch: false,
       respectPrefersColorScheme: false,
     },
+    headTags: [
+      {
+        tagName: 'link',
+        attributes: {
+          rel: 'preconnect',
+          href: 'https://fonts.googleapis.com',
+        },
+      },
+      {
+        tagName: 'link',
+        attributes: {
+          rel: 'preconnect',
+          href: 'https://fonts.gstatic.com',
+          crossorigin: 'anonymous',
+        },
+      },
+      {
+        tagName: 'link',
+        attributes: {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap',
+        },
+      },
+    ],
     navbar: {
       title: 'Farowave',
       logo: {
@@ -54,7 +81,7 @@ const config = {
         height: 96,
       },
       items: [
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/guides', label: 'Guides', position: 'left'},
         {
           href: 'https://github.com/ka2in',
           label: 'GitHub',
@@ -68,14 +95,14 @@ const config = {
         {
           title: 'Content',
           items: [
-            {label: 'Blog', to: '/blog'},
+            {label: 'Guides', to: '/guides'},
           ],
         },
         {
           title: 'Farowave',
           items: [
             {label: 'Main Site', href: 'https://farowave.com'},
-            {label: 'bits4docs', href: 'https://docs.farowave.com'},
+            {label: 'Farowave Docs', href: 'https://docs.farowave.com'},
           ],
         },
         {
