@@ -9,3 +9,28 @@
   height: 200px;
   width: 200px;
 }
+
+
+/* Card containers for SVGs */
+
+.featureSvg {
+  height: 160px;
+  width: 160px;
+  object-fit: contain;
+}
+
+.svgWrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 16px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+[data-theme='dark'] .svgWrapper {
+  background: #1A2D40;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+}

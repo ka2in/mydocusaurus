@@ -55,7 +55,6 @@ const config = {
       },
       items: [
         {to: '/blog', label: 'Blog', position: 'left'},
-        {to: '/docs/handbuch', label: 'Resources', position: 'left'},
         {
           href: 'https://github.com/ka2in',
           label: 'GitHub',
@@ -70,7 +69,6 @@ const config = {
           title: 'Content',
           items: [
             {label: 'Blog', to: '/blog'},
-            {label: 'Resources', to: '/docs/handbuch'},
           ],
         },
         {

@@ -3,12 +3,39 @@
  * and scoped locally.
  */
 
-.heroBanner {
+ .heroBanner {
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background-image: url('/img/richard-horvath-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
 }
+
+.heroBanner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 61, 122, 0.85);
+  z-index: 0;
+}
+
+.heroBanner :global(.container) {
+  position: relative;
+  z-index: 1;
+}
+
+.heroBanner :global(.hero__title),
+.heroBanner :global(.hero__subtitle) {
+  color: #ffffff;
+}
+
+[data-theme='dark'] .heroBanner :global(.hero__title),
+[data-theme='dark'] .heroBanner :global(.hero__subtitle) {
+  color: var(--ifm-color-gray-900);
+}
+
 
 @media screen and (max-width: 996px) {
   .heroBanner {

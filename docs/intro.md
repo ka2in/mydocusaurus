@@ -25,15 +25,8 @@ based in the European Union, working with SaaS companies and regulated industrie
 - OS: Debian, Fedora
 
 🔗 [farowave.com](https://farowave.com) · 
-🔗 [docs.farowave.com](https://docs.farowave.com) · 
 🔗 [@gnufcl@fosstodon.org](https://fosstodon.org/@gnufcl)
 
 ## Resources
 
-- 📘 [bits4docs](https://docs.farowave.com) — technical articles on documentation tooling and networking
-
-### What's new?
-
-- 🏁 ``Handbook for legal terminology: German - Arabic -French`` - Now available in eBook format
---
-*Published by Farowave. For more resources visit [farowave.com](https://farowave.com)*
+- 📘 [Reference](https://docs.farowave.com) — a structured technical reference covering API fundamentals, version control, networking, and documentation tooling.
