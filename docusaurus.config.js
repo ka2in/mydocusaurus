@@ -6,7 +6,7 @@ const config = {
   title: 'Farowave Guides',
   tagline: 'Insights on enterprise documentation, localization, and technical communication',
   url: 'https://ka2in.github.io',
-  baseUrl: '/mydocusaurus/',
+  baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'ka2in',
   projectName: 'mydocusaurus',
