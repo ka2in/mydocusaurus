@@ -160,3 +160,8 @@ If privacy, control, and digital self-determination matter to you, joining the F
 
 **Ready to take control? The future is federated.**
 
+---
+
+## About Farowave
+
+At Farowave, we work with both Sphinx and Docusaurus across our documentation engagements — from enterprise API reference builds and docs-as-code retainers to localization governance and TMS workflow design. If you're evaluating documentation tooling for your organization, or need help structuring a documentation system that scales, [get in touch](https://farowave.com).

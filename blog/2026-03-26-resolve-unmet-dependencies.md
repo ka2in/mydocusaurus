@@ -105,5 +105,8 @@ $ yarn run serve
 
 That's it! Everything is working fine now ☀️.
 
+---
 
-Copyright © GlobalTech Translations 2022.
+## About Farowave
+
+At Farowave, we work with both Sphinx and Docusaurus across our documentation engagements — from enterprise API reference builds and docs-as-code retainers to localization governance and TMS workflow design. If you're evaluating documentation tooling for your organization, or need help structuring a documentation system that scales, [get in touch](https://farowave.com).

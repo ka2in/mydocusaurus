@@ -7,6 +7,7 @@
 /* You can override the default Infima variables here. */
 
 :root {
+
   --ifm-color-primary: #0066CC;
   --ifm-color-primary-dark: #005BB5;
   --ifm-color-primary-darker: #0052A3;
@@ -21,8 +22,8 @@
   --farowave-slate: #2C3E50;
   --farowave-light-gray: #F8F9FA;
   --farowave-success: #27AE60;
-  --ifm-font-family-base:       'Atkinson Hyperlegible', system-ui, sans-serif;
-  --ifm-heading-font-family:    'Red Hat Display', system-ui, sans-serif;
+  --ifm-font-family-base:    'Red Hat Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --ifm-heading-font-family: 'Red Hat Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
 [data-theme='dark'] {

@@ -44,3 +44,9 @@ kernel /vmlinuz-2.6.9-1.667 ro root=LABEL=/ acpi=on rhgb quiet 3
 A runlevel is a number indicating what "mode" you want the system to boot into. For instance, runlevel 3 is text-only mode, while runlevel 5 refers to graphical mode.
 
 :::
+
+---
+
+## About Farowave
+
+At Farowave, we work with both Sphinx and Docusaurus across our documentation engagements — from enterprise API reference builds and docs-as-code retainers to localization governance and TMS workflow design. If you're evaluating documentation tooling for your organization, or need help structuring a documentation system that scales, [get in touch](https://farowave.com).

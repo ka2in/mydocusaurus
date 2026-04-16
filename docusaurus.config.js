@@ -35,6 +35,8 @@ const config = {
           routeBasePath: 'guides',
           blogTitle: 'Farowave Guides',
           blogDescription: 'Practical resources for technical communicators and documentation engineers',
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: 'All posts',
           showReadingTime: true,
           editUrl: 'https://github.com/ka2in/mydocusaurus/tree/main/',
         },
@@ -71,7 +73,7 @@ const config = {
         tagName: 'link',
         attributes: {
           rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap',
+          href: 'https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap',
         },
       },
     ],

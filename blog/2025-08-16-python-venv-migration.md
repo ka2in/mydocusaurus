@@ -126,3 +126,9 @@ Many tools (like Poetry and VS Code) look for a `.venv` folder in the project ro
 ## Final Thoughts
 
 Virtual environments are essential for clean Python workflows, especially in documentation projects where reproducibility matters. But they’re not portable in the way you might expect. Rebuilding them is fast, reliable, and avoids the headaches of broken paths and activation errors.
+
+---
+
+## About Farowave
+
+At Farowave, we work with both Sphinx and Docusaurus across our documentation engagements — from enterprise API reference builds and docs-as-code retainers to localization governance and TMS workflow design. If you're evaluating documentation tooling for your organization, or need help structuring a documentation system that scales, [get in touch](https://farowave.com).

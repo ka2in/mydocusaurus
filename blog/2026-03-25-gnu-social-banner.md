@@ -43,4 +43,8 @@ Replace with the text you would like to see on your welcome screen, then save an
 If you want to learn more about the fediverse, you can also read my other blog article on the topic: [Random Thoughts About the Federation/Fediverse](https://globaltech-translations.com/profil/blog/random-thoughts-about-the-federation-fediverse).
 
 
-Copyright © GlobalTech Translations 2022.
+---
+
+## About Farowave
+
+At Farowave, we work with both Sphinx and Docusaurus across our documentation engagements — from enterprise API reference builds and docs-as-code retainers to localization governance and TMS workflow design. If you're evaluating documentation tooling for your organization, or need help structuring a documentation system that scales, [get in touch](https://farowave.com).
