@@ -3,7 +3,7 @@ slug: gnu-social-welcome
 title: Modify The Welcome Text In GNU Social 
 authors:
   name: Faycal Alami-Hassani
-  title: Website's owner
+  title: Founder of Farowave
   url: https://github.com/ka2in
   image_url: https://github.com/ka2in.png
 tags: [gnusocial, fediverse, decentralized networks, federated networks, free libre communities]

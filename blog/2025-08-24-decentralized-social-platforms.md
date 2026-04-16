@@ -3,7 +3,7 @@ slug: decentralized-social-platforms
 title: "Decentralized Communication: Security, Freedom, and the Future of Social Platforms"
 authors: 
   name: Faycal Alami-Hassani
-  title: Website's owner
+  title: Founder of Farowave
   url: https://github.com/ka2in
   image_url: https://github.com/ka2in.png
 description: Across the modern internet, a handful of tech giants have become gatekeepers of digital life. They dictate how we connect, monetize our personal data, and lock us into walled gardens of proprietary services. But there’s a growing movement pushing back—one that’s building a freer, more secure internet from the ground up.

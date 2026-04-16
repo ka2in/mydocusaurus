@@ -3,7 +3,7 @@ slug: resolve-unmet-dependecies
 title: Unmet Dependencies in Docusaurus 
 authors:
   name: Faycal Alami-Hassani
-  title: Website's owner
+  title: Founder of Farowave
   url: https://github.com/ka2in
   image_url: https://github.com/ka2in.png
 tags: [docusaurus, v. 2.0.0-beta.18, yarn, npm, ssg, dependencies]

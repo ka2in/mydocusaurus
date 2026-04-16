@@ -3,7 +3,7 @@ slug: python-venv-migration
 title: Why You Shouldn’t Copy Your Python Virtual Environment Folder
 authors: 
   name: Faycal Alami-Hassani
-  title: Website's owner
+  title: Founder of Farowave
   url: https://github.com/ka2in
   image_url: https://github.com/ka2in.png
 description: Learn why copying your venv folder breaks your Python setup and how to properly recreate environments for Sphinx documentation projects.

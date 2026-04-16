@@ -3,7 +3,7 @@ slug: first-blog-post
 title: RTL, LTR, and Absent-Mindedness
 authors:
   name: Faycal Alami-Hassani
-  title: Website's owner
+  title: Founder of Farowave
   url: https://github.com/ka2in
   image_url: https://github.com/ka2in.png
 tags: [RTL, LTR, intercultural communication, visual communication, technical documentation]
