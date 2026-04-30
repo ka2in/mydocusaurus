@@ -76,6 +76,11 @@ const config = {
           href: 'https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap',
         },
       },
+      algolia: {
+        appId: 'WD3GAPVQQH',
+        apiKey: '1b9f0739688ed742e37378c6a02adbbc', 
+        indexName: 'myusaurus',
+      },
     ],
     navbar: {
       title: 'Farowave',
