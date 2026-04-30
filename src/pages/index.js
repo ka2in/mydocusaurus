@@ -1,3 +1,4 @@
+import Head from '@docusaurus/Head';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -34,6 +35,9 @@ export default function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
+      <Head>
+        <meta name="algolia-site-verification"  content="B05CC7E50FAF3972" />
+      </Head>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
