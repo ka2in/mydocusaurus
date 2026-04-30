@@ -80,7 +80,7 @@ const config = {
     algolia: {
       appId: 'WD3GAPVQQH',
       apiKey: '1b9f0739688ed742e37378c6a02adbbc', 
-      indexName: 'myusaurus',
+      indexName: 'Farowave Guides',
     },
     navbar: {
       title: 'Farowave',
