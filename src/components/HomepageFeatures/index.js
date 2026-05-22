@@ -27,7 +27,7 @@ const FeatureList = [
     Icon: ShieldCheck,
     description: (
       <>
-        Perspectives on decentralized platforms, privacy, and open source tools for technical communicators.
+        Critical analysis of decentralized platforms, web3 protocols, and open infrastructure from a technical communication lens.
       </>
     ),
   },
