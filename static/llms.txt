@@ -1,0 +1,29 @@
+# Farowave Guides Portal
+
+> Developer-facing guides and analytical content published by Farowave at portal.farowave.com. Built on Docusaurus v3. Covers documentation tooling and strategy, localization pipelines, decentralized platforms, open web topics, and web3 protocol documentation analysis. Maintained as a working example of a Docusaurus documentation portal and as a content platform for Farowave's authority-building strategy in technical communication, localization, and open web topics. All content authored by Faycal Alami-Hassani, Founder of Farowave.
+
+## Guides
+
+- [Farowave Guides](https://portal.farowave.com/guides): Index of all published guides across documentation tooling, localization, decentralized platforms, and web3 protocol analysis.
+
+## Enterprise Documentation & Tooling
+
+- [Docusaurus vs Sphinx: Choosing the Right Documentation Tool](https://portal.farowave.com/guides/docusaurus-vs-sphinx): In-depth practical comparison of Docusaurus and Sphinx as documentation platforms — covers structured content and cross-references, MDX and React components, error reporting, versioning, internationalization and localization workflows, and a decision framework for choosing between the two. Based on hands-on production experience with both tools. (April 2026)
+- [Unmet Dependencies in Docusaurus](https://portal.farowave.com/guides/resolve-unmet-dependencies): Practical guide to diagnosing and resolving unmet peer dependency errors after a Yarn upgrade in Docusaurus — covers package manifests, the Yarn/npm ecosystem, and the specific resolution steps for TypeScript and React types conflicts. (March 2026)
+- [Why You Shouldn't Copy Your Python Virtual Environment Folder](https://portal.farowave.com/guides/python-venv-migration): Explains why copying a Python venv folder breaks hardcoded path bindings in pyvenv.cfg and activation scripts, and documents the correct workflow for recreating virtual environments using requirements.txt or pyproject.toml — relevant to Sphinx documentation projects. (August 2025)
+- [Entering Text Mode in Fedora](https://portal.farowave.com/guides/text-mode-fedora): Practical guide to booting into text-only mode (runlevel 3) in Fedora Linux via GRUB — relevant for documentation environments running headless configurations or recovering from graphical mode failures such as SELinux misconfigurations. (March 2025)
+
+## Localization & Multilingual Content
+
+- [RTL, LTR, and Absent-Mindedness](https://portal.farowave.com/guides/first-blog-post): Practitioner observations on right-to-left and left-to-right script direction in multilingual documentation — explores a real-world incident from a technical communication webinar to illustrate common misconceptions about script direction, with commentary on ethnocentrism in intercultural communication materials. Covers Japanese writing systems (tategaki and yokogaki) as a case study in bidirectional script behaviour. (January 2026)
+
+## Open Web & Digital Rights
+
+- [Sui Developer Documentation Review — Onboarding, Move, and the Architecture of Learning](https://portal.farowave.com/guides/open-web-digital-rights/sui-developer-documentation-review): Analytical review of the Sui blockchain protocol's developer documentation — covers the Getting Started onboarding flow, CLI setup friction points, the conceptual introduction to Move and Sui's object model, the Slush wallet integration guide, information architecture of the full documentation site, and nine concrete recommendations. Written from a technical communication lens, not a protocol advocacy perspective. Scope: Getting Started section, Hello World guide, Connect a Frontend guide, and overall site architecture. Reviewed May 2026. (May 2026)
+- [Decentralized Communication: Security, Freedom, and the Future of Social Platforms](https://portal.farowave.com/guides/decentralized-social-platforms): Analysis of decentralized social platforms and the Fediverse — covers the ActivityPub, OStatus, and Diaspora protocols, security and privacy advantages of federated architecture, and practical installation and comparison of Friendica, Mastodon, and GNU Social as alternatives to centralized social networks. Includes security feature comparison table. (August 2025)
+- [Modify The Welcome Text In GNU Social](https://portal.farowave.com/guides/gnu-social-welcome): Practical guide to modifying the welcome banner text in a GNU Social instance running the Qvitter theme — covers navigation to the locale directory and editing en.json. Relevant for operators of self-hosted federated social platforms. (March 2026)
+
+## Optional
+
+- [RSS Feed](https://portal.farowave.com/guides/rss.xml): Atom/RSS feed for all Farowave Guides content.
+- [Tags Index](https://portal.farowave.com/guides/tags): Full tag index for filtering guides by topic (sphinx, docusaurus, web3, fediverse, localization, rtl, python, documentation-review, sui, move, etc.)
