@@ -1,6 +1,6 @@
 ---
-slug: resolve-unmet-dependecies
-title: Unmet Dependencies in Docusaurus 
+slug: resolve-unmet-dependencies
+title: Unmet Dependencies in Docusaurus
 authors:
   name: Faycal Alami-Hassani
   title: Founder of Farowave
@@ -13,7 +13,7 @@ This is the first time that I am facing issues with unmet dependencies in Docusa
 
 ### What is Docusaurus?
 
-**Docusaurus** is an SSG (short for *Static Site Generator*). Static Site Generators are software frameworks that generate static HTML webpages using templates, components, and plain-text files. 
+**Docusaurus** is an SSG (short for *Static Site Generator*). Static Site Generators are software frameworks that generate static HTML webpages using templates, components, and plain-text files.
 
 The plain-text files make use of markup languages such as Markdown. Since there are neither databases nor dynamic content involved, the static HTML files load pretty fast.
 
@@ -25,17 +25,17 @@ Docusaurus offers some very interesting features, including:
 - contextual and faceted navigation based on a integrated search engine
 - built-in support for the standard file format [MDX](https://mdxjs.com/docs/what-is-mdx/), which allows you to embed the JavaScript extension syntax [JSX](https://facebook.github.io/jsx/) into your Markdown
 
-These and other features make it a great fit to create beautiful static documentation sites.  
+These and other features make it a great fit to create beautiful static documentation sites.
 
-### What is Yarn?   
+### What is Yarn?
 
-**Yarn** is a JavaScript package manager that was developed to address some shortcomings of its predecessor **npm**, the default package manager for Node.js. 
+**Yarn** is a JavaScript package manager that was developed to address some shortcomings of its predecessor **npm**, the default package manager for Node.js.
 
 ### Packages, Manifests, and Package Managers
 
-Developers use packages to share their code. In addition to the actual code, each package contains a `manifest` file, also called `package.json`. 
+Developers use packages to share their code. In addition to the actual code, each package contains a `manifest` file, also called `package.json`.
 
-The manifest file describes the package itself using a lightweight data-interchange format called [JSON](https://www.json.org/json-en.html) (JavaScript Object Notation). 
+The manifest file describes the package itself using a lightweight data-interchange format called [JSON](https://www.json.org/json-en.html) (JavaScript Object Notation).
 
 Here is an excerpt of a manifest:
 
@@ -54,17 +54,17 @@ Here is an excerpt of a manifest:
         "lodash": "^4.17.4",
         "proper-lockfile": "^3.0.2"
     }
-```  
+```
 
 Source code available on GitHub under: [oclif / manifest file](https://github.com/oclif/manifest-file/blob/master/package.json)
 
 A package manager relies on the manifest to determine the properties of each specific package, e.g. name, version, and dependencies.
 
-To avoid any future conflicting packages in your project, you are better advised to select a specific package manager right from the start and stick to it.  
+To avoid any future conflicting packages in your project, you are better advised to select a specific package manager right from the start and stick to it.
 
 If you want to learn more about the differences between yarn and npm, I suggest you read the following article: [npm vs. yarn: Which Package Manager Should You Choose?](https://www.whitesourcesoftware.com/free-developer-tools/blog/npm-vs-yarn-which-should-you-choose/)
 
-### Troubleshooting Yarn Upgrade in Docusaurus 
+### Troubleshooting Yarn Upgrade in Docusaurus
 
 Yesterday, I got a warning message prompting me to upgrade Yarn while I was testing Docusaurus on my local development environment.
 
@@ -99,7 +99,7 @@ $ yarn run build
 
 Then I used the following command to test my build locally:
 
-```console 
+```console
 $ yarn run serve
 ```
 
