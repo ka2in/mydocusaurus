@@ -1,0 +1,252 @@
+---
+title: Why your OpenAPI spec passes linting and still fails your developers
+description: A documentation audit of the Frankfurter v1 API — and what it reveals about the gap between technically valid and developer-ready.
+date: 2026-07-28
+authors: [faycal]
+tags: [openapi, api-documentation, documentation-audit]
+---
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+API documentation is only as good as it helps a developer reach their goal without consulting external resources, reverse-engineering silent errors, or opening a support ticket to decipher a cryptic response.
+
+A spec that passes linting is officially done. The tooling says it's valid, the CI pipeline goes green, and the documentation ships alongside the release. What linting cannot measure is whether a developer facing the API for the first time can actually use it: whether the descriptions explain what the API does rather than merely naming it, whether the error responses tell the user why a request failed and how to fix it, and whether the edge cases that will inevitably be hit in production are documented before they become support tickets.
+
+To illustrate the difference concretely, we audited the Frankfurter v1 OpenAPI specification — a real, publicly available API with a technically valid spec. The Frankfurter API provides endpoints to retrieve the latest currency rates, historical data for specific dates, time series over a given period, and currency metadata.
+
+The original spec lints cleanly. What it doesn't do is tell a developer everything they need, as the following table shows.
+
+## What the audit found
+
+| Gap                             | Original spec                               | Improved spec                                                                                                                             |
+| ------------------------------- | ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| **Error response descriptions** | `description: Resource not found`           | Describes specific causes: invalid currency code, date before 1999-01-04, end date before start date                                      |
+| **Silent date adjustment**      | Not documented                              | Documents that a start date before 1999-01-04 is silently adjusted to 1999-01-04, and that the adjusted date appears in the response body |
+| **Today's rates instability**   | Not mentioned                               | Explicitly states that data returned for today may update if new rates are published during the day                                       |
+| **Working days constraint**     | Not mentioned                               | All time series endpoints document that results only include working days — weekends and bank holidays are excluded                       |
+| **Base currency default**       | No default declared on the `base` parameter | `default: EUR` declared and visible in the rendered output                                                                                |
+| **Response examples**           | No examples on any schema                   | Real response examples on all schemas, sourced from live API calls                                                                        |
+
+## The details
+
+### Error response descriptions
+
+A 404 with no context forces the developer to guess what went wrong. Naming the cause cuts debugging time and reduces support overhead.
+
+<Tabs>
+  <TabItem value="before" label="Before">
+
+```yaml
+responses:
+  NotFound:
+    description: Resource not found
+```
+
+  </TabItem>
+  <TabItem value="after" label="After">
+
+```yaml
+responses:
+  NotFound:
+    description: |
+      No data found for the requested date or currency code.
+      Common causes: invalid currency code, date before 1999-01-04
+      on the /{date} endpoint, or end date before start date on
+      period endpoints.
+```
+
+  </TabItem>
+</Tabs>
+
+### Silent date adjustment
+
+Without this, a developer whose requested date doesn't match the response date will assume a bug in their own code rather than an API behaviour. This is one of the more insidious gaps in developer-written specs — the API does something unexpected and says nothing about it.
+
+<Tabs>
+  <TabItem value="before" label="Before">
+
+```yaml
+/{start_date}..:
+  get:
+    description: Returns historical rates for every day within a
+      time period starting from the provided date until today.
+```
+
+  </TabItem>
+  <TabItem value="after" label="After">
+
+```yaml
+/{start_date}..:
+  get:
+    description: |
+      Returns currency rates from a specific start date up to the present.
+      If the start date falls before 1999-01-04, the API silently adjusts
+      it to 1999-01-04, which is the earliest date for which data is available.
+      The adjusted start date is reflected in the response body.
+```
+
+  </TabItem>
+</Tabs>
+
+### Today's rates instability
+
+A developer caching today's rates or comparing them across calls needs to know the data isn't stable until the daily update completes around 16:00 CET. The original spec gave no indication that today's response is a moving target.
+
+<Tabs>
+  <TabItem value="before" label="Before">
+
+```yaml
+/latest:
+  get:
+    description: Returns the last working day's rates.
+```
+
+  </TabItem>
+  <TabItem value="after" label="After">
+
+```yaml
+/latest:
+  get:
+    description: |
+      Fetch the latest working day's currency rates, updated daily
+      around 16:00 CET. Data returned for today may update if new
+      rates are published during the day.
+```
+
+  </TabItem>
+</Tabs>
+
+### Working days constraint
+
+A developer expecting continuous date coverage will be confused by gaps in the time series response. Weekends and bank holidays produce no data — documenting this prevents incorrect assumptions about missing entries.
+
+<Tabs>
+  <TabItem value="before" label="Before">
+
+```yaml
+/{start_date}..{end_date}:
+  get:
+    description: Returns historical rates for every day within
+      a time period.
+```
+
+  </TabItem>
+  <TabItem value="after" label="After">
+
+```yaml
+/{start_date}..{end_date}:
+  get:
+    description: |
+      Returns currency rates from a specific start date up to an end date.
+      Dates are stored in UTC. Results only include working days —
+      weekends and bank holidays are excluded.
+```
+
+  </TabItem>
+</Tabs>
+
+### Base currency default
+
+A developer who omits the `base` parameter needs to know what the API assumes. Without a declared default they have to test or read external documentation to find out. Declaring it in the spec makes it visible in every tool that renders the spec — Redocly, Swagger UI, Postman.
+
+<Tabs>
+  <TabItem value="before" label="Before">
+
+```yaml
+parameters:
+  base:
+    name: base
+    in: query
+    description: Base currency to convert from
+    required: false
+    schema:
+      $ref: "#/components/schemas/base"
+```
+
+  </TabItem>
+  <TabItem value="after" label="After">
+
+```yaml
+components:
+  schemas:
+    baseIn:
+      allOf:
+        - $ref: "#/components/schemas/base"
+      default: EUR
+      description: Base currency for the rates. Defaults to EUR when not specified.
+
+parameters:
+  base:
+    name: base
+    in: query
+    description: >
+      Base currency for the rates. All rates in the response are expressed
+      relative to this currency. Defaults to EUR when not specified.
+    required: false
+    schema:
+      $ref: "#/components/schemas/baseIn"
+```
+
+  </TabItem>
+</Tabs>
+
+### Response examples
+
+Examples let a developer verify their integration against a known-good response shape before making a real API call. They also make schema definitions immediately readable — a developer can scan the example and understand the data structure in seconds rather than parsing nested schema definitions.
+
+<Tabs>
+  <TabItem value="before" label="Before">
+
+```yaml
+singleDateRates:
+  type: object
+  properties:
+    amount:
+      type: number
+    base:
+      type: string
+    date:
+      type: string
+    rates:
+      type: object
+```
+
+  </TabItem>
+  <TabItem value="after" label="After">
+
+```yaml
+singleDateRates:
+  type: object
+  properties:
+    amount:
+      type: number
+    base:
+      type: string
+    date:
+      type: string
+    rates:
+      type: object
+  example:
+    amount: 1.0
+    base: EUR
+    date: "2026-07-24"
+    rates:
+      AUD: 1.6281
+      USD: 1.1418
+      CHF: 0.9302
+```
+
+  </TabItem>
+</Tabs>
+
+## What this means for your API documentation
+
+Each of the gaps above passed linting. None of them were bugs in the spec — the original was structurally valid and rendered correctly. What it lacked was the layer of context that turns a technically correct document into one a developer can actually rely on.
+
+That layer doesn't come from the API. It comes from someone whose job is to read the spec the way a developer would encounter it for the first time, verify its claims against the live API, and fill in what the implementation knows but the documentation doesn't say.
+
+The full before and after specs are available here:
+
+- [Original Frankfurter v1 spec](https://portal.farowave.com/demos/frankfurter-v1-original.html) ← link to rendered original
+- [Improved Frankfurter v1 spec](https://portal.farowave.com/demos/frankfurter-v1-improved.html) ← link to rendered improved version
