@@ -31,21 +31,80 @@ const config = {
           sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/ka2in/mydocusaurus/tree/main/',
         },
-        blog: {
-          routeBasePath: 'guides',
-          blogTitle: 'Farowave Guides',
-          blogDescription: 'Practical resources for technical communicators and documentation engineers',
-          blogSidebarCount: 'ALL',
-          blogSidebarTitle: 'All posts',
-          showReadingTime: true,
-          editUrl: 'https://github.com/ka2in/mydocusaurus/tree/main/',
-        },
+        blog: false,
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
   ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'enterprise-documentation',
+        routeBasePath: 'guides/enterprise-documentation',
+        path: './content/enterprise-documentation',
+        blogTitle: 'Enterprise Documentation',
+        blogDescription: 'Technical resources, tooling guides, and documentation strategy for SaaS and regulated industries.',
+        blogSidebarTitle: 'Recent articles',
+        blogSidebarCount: 'ALL',
+        postsPerPage: 10,
+        showReadingTime: true,
+        authorsMapPath: 'authors.yml',
+        feedOptions: {
+          type: ['rss', 'atom'],
+          title: 'Farowave · Enterprise Documentation',
+          description: 'Technical resources, tooling guides, and documentation strategy for SaaS and regulated industries.',
+          copyright: `Copyright © ${new Date().getFullYear()} Farowave`,
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'localization-multilingual',
+        routeBasePath: 'guides/localization-multilingual',
+        path: './content/localization-multilingual',
+        blogTitle: 'Localization & Multilingual Content',
+        blogDescription: 'Insights on TMS workflows, terminology governance, and multilingual content strategy.',
+        blogSidebarTitle: 'Recent articles',
+        blogSidebarCount: 'ALL',
+        postsPerPage: 10,
+        showReadingTime: true,
+        authorsMapPath: 'authors.yml',
+        feedOptions: {
+          type: ['rss', 'atom'],
+          title: 'Farowave · Localization & Multilingual',
+          description: 'Insights on TMS workflows, terminology governance, and multilingual content strategy.',
+          copyright: `Copyright © ${new Date().getFullYear()} Farowave`,
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'open-web-digital-rights',
+        routeBasePath: 'guides/open-web-digital-rights',
+        path: './content/open-web-digital-rights',
+        blogTitle: 'Open Web & Digital Rights',
+        blogDescription: 'Critical analysis of decentralized platforms, web3 protocols, and open infrastructure from a technical communication lens.',
+        blogSidebarTitle: 'Recent articles',
+        blogSidebarCount: 'ALL',
+        postsPerPage: 10,
+        showReadingTime: true,
+        authorsMapPath: 'authors.yml',
+        feedOptions: {
+          type: ['rss', 'atom'],
+          title: 'Farowave · Open Web & Digital Rights',
+          description: 'Critical analysis of decentralized platforms, web3 protocols, and open infrastructure from a technical communication lens.',
+          copyright: `Copyright © ${new Date().getFullYear()} Farowave`,
+        },
+      },
+    ],
+  ],
+
   themeConfig: ({
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
@@ -77,9 +136,10 @@ const config = {
         },
       },
     ],
+
     algolia: {
       appId: 'WD3GAPVQQH',
-      apiKey: '1b9f0739688ed742e37378c6a02adbbc', 
+      apiKey: '1b9f0739688ed742e37378c6a02adbbc',
       indexName: 'Farowave Guides',
     },
     navbar: {
@@ -92,7 +152,16 @@ const config = {
         height: 96,
       },
       items: [
-        {to: '/guides', label: 'Guides', position: 'left'},
+        {
+          label: 'Guides',
+          position: 'left',
+          type: 'dropdown',
+          items: [
+            { label: 'Enterprise Documentation', to: '/guides/enterprise-documentation/' },
+            { label: 'Localization & Multilingual', to: '/guides/localization-multilingual/' },
+            { label: 'Open Web & Digital Rights', to: '/guides/open-web-digital-rights/' },
+          ],
+        },
         {
           href: 'https://github.com/ka2in',
           label: 'GitHub',
@@ -106,7 +175,9 @@ const config = {
         {
           title: 'Content',
           items: [
-            {label: 'Guides', to: '/guides'},
+            {label: 'Enterprise Documentation', to: '/guides/enterprise-documentation/'},
+            {label: 'Localization & Multilingual', to: '/guides/localization-multilingual/'},
+            {label: 'Open Web & Digital Rights', to: '/guides/open-web-digital-rights/'},
           ],
         },
         {

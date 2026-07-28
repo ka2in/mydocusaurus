@@ -32,3 +32,14 @@
 [data-theme='dark'] .featureIcon {
   color: #6BA3CC;
 }
+
+.featureCard {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.featureCard:hover {
+  text-decoration: none;
+  color: inherit;
+}
