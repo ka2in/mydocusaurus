@@ -21,6 +21,8 @@ fixfiles -B onboot
 
 After running the command and restarting the OS, the relabeling process was failing repeatedly, leading my system to an infinite reboot loop.
 
+<!-- truncate -->
+
 ![Fixing a messed-up SELinux configuration](./printer-eff.jpg)<br />
 Picture by the [Electronic Frontier Foundation](https://www.eff.org/) under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) license
 

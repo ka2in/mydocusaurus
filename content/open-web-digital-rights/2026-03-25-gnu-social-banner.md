@@ -1,6 +1,6 @@
 ---
 slug: gnu-social-welcome
-title: Modify The Welcome Text In GNU Social 
+title: Modify The Welcome Text In GNU Social
 authors:
   name: Faycal Alami-Hassani
   title: Founder of Farowave
@@ -9,9 +9,11 @@ authors:
 tags: [gnusocial, fediverse, decentralized networks, federated networks, free libre communities]
 ---
 
-Besides having some external accounts on [federated social networks](https://fediverse.party/en/fediverse/) such as Mastodon, I am also running my own instances on a VPS sever for my digital company. 
+Besides having some external accounts on [federated social networks](https://fediverse.party/en/fediverse/) such as Mastodon, I am also running my own instances on a VPS sever for my digital company.
 
-One of these instances is dedicated to GNU Social, a social communication software for public and private communications. GNU Social is an old, but robust platform that supports the protocols OStatus and ActivityPub. 
+One of these instances is dedicated to GNU Social, a social communication software for public and private communications. GNU Social is an old, but robust platform that supports the protocols OStatus and ActivityPub.
+
+<!-- truncate -->
 
 ![Fediverse - Federated Social Networks](./fediverse-high-tech.jpg)<br />
 Picture by Eukombos on [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fediverse-high_tech(denoised)(signed).jpg) under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) license
@@ -27,13 +29,13 @@ I am very happy with Qvitter and its intuitive design. Nevertheless, I wanted to
 To modify the text indicated above, go to your site root directory, then navigate to the folder `locale` under the following path:
 
 ```console
-$ cd plugins/Qvitter/locale 
+$ cd plugins/Qvitter/locale
 ```
 Once in the locale folder, open the file `en.json` with your preferred text editor. In this case, I am using nano:
 
 ```console
-$ sudo nano en.json 
-``` 
+$ sudo nano en.json
+```
 Look for the line that starts with `welcomeText`, or use the shortcut `Ctrl-W` in your terminal to search for the text if you are using nano.
 
 Replace with the text you would like to see on your welcome screen, then save and close your file. 😎 The result should look like this:

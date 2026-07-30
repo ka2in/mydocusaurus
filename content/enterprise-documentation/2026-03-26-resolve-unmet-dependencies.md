@@ -17,6 +17,8 @@ This is the first time that I am facing issues with unmet dependencies in Docusa
 
 The plain-text files make use of markup languages such as Markdown. Since there are neither databases nor dynamic content involved, the static HTML files load pretty fast.
 
+<!-- truncate -->
+
 There are many SSGs on the web to choose from. Docusaurus, Hugo, and Eleventy are just some of the most famous ones among them. It is up to you to select the brand that best suits your needs.
 
 Docusaurus offers some very interesting features, including:

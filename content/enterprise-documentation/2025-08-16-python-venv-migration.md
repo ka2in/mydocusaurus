@@ -1,7 +1,7 @@
 ---
 slug: python-venv-migration
 title: Why You Shouldn’t Copy Your Python Virtual Environment Folder
-authors: 
+authors:
   name: Faycal Alami-Hassani
   title: Founder of Farowave
   url: https://github.com/ka2in
@@ -19,7 +19,7 @@ One mistake I made early on—and one I see others make too—is trying to **cop
 
 It seems convenient, but it’s a trap. Let me walk you through why this doesn’t work reliably, what actually breaks, and how to fix it the right way.
 
----
+<!-- truncate -->
 
 ## The Problem: Copying the `venv` Folder Breaks Path Bindings
 
@@ -31,10 +31,10 @@ python -m venv venv
 
 Python generates a folder named `venv` (or whatever name you choose) that contains:
 
-- The Python interpreter binaries  
-- Scripts for activating the environment  
-- A `pyvenv.cfg` file with absolute paths  
-- Site-packages and installed dependencies  
+- The Python interpreter binaries
+- Scripts for activating the environment
+- A `pyvenv.cfg` file with absolute paths
+- Site-packages and installed dependencies
 
 The issue? The `pyvenv.cfg` file and internal scripts contain **hardcoded absolute paths** to the original Python executable and environment location. If you move the folder to a different directory or machine, those paths become invalid.
 

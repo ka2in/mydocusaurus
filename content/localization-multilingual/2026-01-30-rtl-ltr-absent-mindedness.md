@@ -16,6 +16,8 @@ As someone who grew up in a bilingual environment, i.e. Arabic and French, makin
 ![Labyrinth and directions](./directions.jpg)<br />
 Picture by the [Electronic Frontier Foundation](https://www.eff.org/) under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) license
 
+<!-- truncate -->
+
 It all began when I attended a webinar about the role of pictures in intercultural communication some weeks ago. The speaker, who was using a Japanese brochure to illustrate an example of non-Latin scripts, started talking about RTL languages and confusing both directions, which in fact are opposite to each other.
 
 During five minutes that seemed like an eternity, our speaker kept using the acronym RTL to refer to a Right-to-Left layout while erroneously telling the audience that RTL was an acronym for Left-to-Right.
@@ -33,21 +35,21 @@ So, what about the Japanese language? Is it an RTL or an LTR script? Well, both 
 
 If you are curious to know more about the reading direction in Japanese, I suggest you read the article [&ldquo;Is Japanese Read from Right to Left or Left to Right?&rdquo;](https://teamjapanese.com/japanese-read-right-left/) by Team Japanese.
 
-Getting back to our presentation, it was quite interesting, but it had some flaws from the &ldquo;intercultural&rdquo; standpoint. Allow me to explain why. 
+Getting back to our presentation, it was quite interesting, but it had some flaws from the &ldquo;intercultural&rdquo; standpoint. Allow me to explain why.
 
 At a certain stage of the presentation, the speaker showed an antique artwork from the Arab-Islamic World, and pointed out that artists from the aforesaid region used ornaments because drawing human beings is not allowed for religious reasons.
 
-While it is partly true that artists from the Arab-Islamic World have used biomorphic design at a later stage as an integral part of their artwork (e.g. use of vegetal shapes and forms, also known as &ldquo;al-Tawrīq&rdquo;), the major part of these artistic creations is based on calligraphy and geometry by deriving patterns from basic geometric shapes, such as circles and squares. 
+While it is partly true that artists from the Arab-Islamic World have used biomorphic design at a later stage as an integral part of their artwork (e.g. use of vegetal shapes and forms, also known as &ldquo;al-Tawrīq&rdquo;), the major part of these artistic creations is based on calligraphy and geometry by deriving patterns from basic geometric shapes, such as circles and squares.
 
 A little introduction to this topic is the article [&ldquo;Geometry - The Language of Symmetry in Islamic Art&rdquo;](https://artofislamicpattern.com/resources/educational-posters/) by Richard Henry.
 
-The second shortcoming in the presentation consisted in the examples used to reflect cultural differences in technical documentation. 
+The second shortcoming in the presentation consisted in the examples used to reflect cultural differences in technical documentation.
 
 It was striking to see that the examples were too ethnocentric, to say the least. Judging by the names appearing in the attendees list, I presume that I was the only non-European in the meeting room.
 
-Personally, I think that the choice of the examples was an unfortunate *faux pas*. The supporting materials would cause real indignation among the attendees if the presentation were to be held in front of a non-European audience (e.g. in an Asian or African country). 
+Personally, I think that the choice of the examples was an unfortunate *faux pas*. The supporting materials would cause real indignation among the attendees if the presentation were to be held in front of a non-European audience (e.g. in an Asian or African country).
 
-Dear speaker, you are shooting yourself in the foot with such examples. If you have any non-European students, ask them for their input. You may need to adapt your content as soon as possible to avoid any misunderstandings with international audiences. 
+Dear speaker, you are shooting yourself in the foot with such examples. If you have any non-European students, ask them for their input. You may need to adapt your content as soon as possible to avoid any misunderstandings with international audiences.
 
 After all, your presentation is supposed to address intercultural challenges in technical communication.
 

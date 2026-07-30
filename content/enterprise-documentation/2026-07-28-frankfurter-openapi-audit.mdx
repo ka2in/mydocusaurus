@@ -13,6 +13,8 @@ API documentation is only as good as it helps a developer reach their goal witho
 
 A spec that passes linting is officially done. The tooling says it's valid, the CI pipeline goes green, and the documentation ships alongside the release. What linting cannot measure is whether a developer facing the API for the first time can actually use it: whether the descriptions explain what the API does rather than merely naming it, whether the error responses tell the user why a request failed and how to fix it, and whether the edge cases that will inevitably be hit in production are documented before they become support tickets.
 
+<!-- truncate -->
+
 To illustrate the difference concretely, we audited the Frankfurter v1 OpenAPI specification — a real, publicly available API with a technically valid spec. The Frankfurter API provides endpoints to retrieve the latest currency rates, historical data for specific dates, time series over a given period, and currency metadata.
 
 The original spec lints cleanly. What it doesn't do is tell a developer everything they need, as the following table shows.

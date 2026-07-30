@@ -1,7 +1,7 @@
 ---
 slug: open-web-digital-rights/sui-developer-documentation-review
 title: 'Sui Developer Documentation Review — Onboarding, Move, and the Architecture of Learning'
-authors: 
+authors:
     name: Faycal Alami-Hassani
     title: Founder of Farowave
     url: https://github.com/ka2in
@@ -16,7 +16,7 @@ date: 2026-05-22
 
 **What this review is not:** An evaluation of Sui as a technology, an investment opinion, or a comparison of protocol economics. The focus is how the documentation communicates — whether it teaches, whether it respects the reader's time, and whether it builds understanding before demanding technical work.
 
----
+<!-- truncate -->
 
 ## Why Sui's Documentation Matters More Than Most
 
@@ -33,7 +33,7 @@ That is a harder problem than most documentation teams acknowledge. Sui's team h
 Opening docs.sui.io, the entry point is immediately clear. The Getting Started section is front and centre. A developer arriving with the intent to build will know where to go within seconds — this is not a given across the web3 documentation landscape, and Sui earns genuine credit for it.
 
 The first substantive task — installing the Sui CLI and configuring a client — is where the first friction appears.
-The documentation instructs the developer to run `sui client` and expect a setup prompt. For developers with a previous Sui installation, the command instead returns a help screen listing available subcommands. 
+The documentation instructs the developer to run `sui client` and expect a setup prompt. For developers with a previous Sui installation, the command instead returns a help screen listing available subcommands.
 
 The documentation does acknowledge this — an info callout explains that an existing `client.yaml` triggers the help output and offers a resolution — but the callout is supplementary rather than part of the main instruction flow. A developer reading linearly may not register it before hitting the discrepancy.
 
@@ -158,7 +158,7 @@ The Onchain Finance and Node Operators sections have a related problem: they don
 One specific gap in the Getting Started procedural flow deserves mention. When a developer attempts to republish a Move package they've previously deployed, they encounter:
 
 ```
-Failed to publish the Move module(s), reason: Your package is already published. 
+Failed to publish the Move module(s), reason: Your package is already published.
 You have to manually remove the publication entry to publish again.
 ```
 

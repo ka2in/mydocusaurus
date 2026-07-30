@@ -1,7 +1,7 @@
 ---
 slug: decentralized-social-platforms
 title: "Decentralized Communication: Security, Freedom, and the Future of Social Platforms"
-authors: 
+authors:
   name: Faycal Alami-Hassani
   title: Founder of Farowave
   url: https://github.com/ka2in
@@ -13,6 +13,8 @@ tags: [fediverse, decentralization, privacy, security, friendica, mastodon, gnu-
 # Decentralized Communication: Security, Freedom, and the Future of Social Platforms
 
 Across the modern internet, a few giant corporations have gained outsized influence over how people connect, share, and discover information. These centralized services profit from harvesting personal data while keeping users locked inside controlled ecosystems. Decentralized platforms are the counterweight — systems designed to distribute power, enhance privacy, and put control back into the hands of their communities.
+
+<!-- truncate -->
 
 
 ![My Neighbor Mastodon (and Fediverse)](./my_neighbor_mastodon_and_fediverse.jpg)<br />

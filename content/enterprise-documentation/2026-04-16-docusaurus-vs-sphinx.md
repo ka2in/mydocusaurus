@@ -13,7 +13,7 @@ If you've spent time writing technical documentation, you've almost certainly en
 
 This article is a practical comparison based on hands-on experience with both tools. The goal isn't to declare a winner, but to give you a clear picture of where each tool excels so you can make an informed choice for your project.
 
----
+<!-- truncate -->
 
 ## A quick orientation
 
