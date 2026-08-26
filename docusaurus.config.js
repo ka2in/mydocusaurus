@@ -103,6 +103,17 @@ const config = {
         },
       },
     ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: '/guides/open-web-digital-rights/open-web-digital-rights/sui-developer-documentation-review',
+            to: '/guides/open-web-digital-rights/sui-developer-documentation-review',
+          },
+        ],
+      },
+    ],
   ],
 
   themeConfig: ({
