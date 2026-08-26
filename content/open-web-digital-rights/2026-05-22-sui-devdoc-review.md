@@ -1,5 +1,5 @@
 ---
-slug: open-web-digital-rights/sui-developer-documentation-review
+slug: sui-developer-documentation-review
 title: 'Sui Developer Documentation Review — Onboarding, Move, and the Architecture of Learning'
 authors:
     name: Faycal Alami-Hassani
