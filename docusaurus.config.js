@@ -5,7 +5,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Farowave Guides',
   tagline: 'Insights on enterprise documentation, localization, and technical communication',
-  url: 'https://ka2in.github.io',
+  url: 'https://portal.farowave.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'ka2in',
