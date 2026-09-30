@@ -7,6 +7,7 @@ const config = {
   tagline: 'Insights on enterprise documentation, localization, and technical communication',
   url: 'https://portal.farowave.com',
   baseUrl: '/',
+  trailingSlash: true,
   favicon: 'img/favicon.ico',
   organizationName: 'ka2in',
   projectName: 'mydocusaurus',
