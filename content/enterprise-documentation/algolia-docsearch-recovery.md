@@ -8,6 +8,7 @@ description: How a content restructure, blocked crawlers, a stale index and miss
 ---
 
 **Scope:** A Docusaurus documentation portal using Algolia DocSearch, hosted on Netlify, with a small Linux VPS for scheduled jobs.
+
 **Audience:** Anyone running DocSearch on a low-traffic docs site, especially before or after moving pages to new URLs.
 
 The steps below use placeholders (`docs.example.com`, `<APP_ID>`, `<INDEX_NAME>`, `<SEARCH_KEY>`) so you can apply them to your own DocSearch site.
